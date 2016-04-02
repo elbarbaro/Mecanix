@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_orden" android:icon="@mipmap/orden_service"
+            android:title="Orden" />
+        <item android:id="@+id/nav_cliente" android:icon="@mipmap/customers"
+            android:title="Cliente" />
+    </group>
+
+    <item android:title="Opciones">
+        <menu>
+            <item android:id="@+id/nav_cerrar_sesion" android:icon="@mipmap/logout"
+                android:title="Cerrar Sesion" />
+            <item android:id="@+id/nav_ayuda" android:icon="@mipmap/about"
+                android:title="Ayuda" />
+        </menu>
+    </item>
+
+</menu>

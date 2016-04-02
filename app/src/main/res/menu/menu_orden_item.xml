@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_ticket" android:title="Agregar Vale"></item>
+    <item android:id="@+id/menu_add_service" android:title="Agregar Servicio"></item>
+    <item android:id="@+id/menu_change_status" android:title="Cambiar Estatus"></item>
+</menu>

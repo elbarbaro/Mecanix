@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="4dip">
+
+
+    <ImageView
+        android:id="@+id/icon_orden"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_mecanix16"
+        />
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_orden"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/folio_orden"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="10000101"
+        android:layout_weight="1"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fecha_orden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-12-15"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_orden"
+        android:layout_below="@+id/linear1"
+        android:paddingTop="10dip"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/nombre_cliente"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliente"
+        android:layout_weight="1"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/estatus_orden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminado"
+        android:gravity="end"
+        android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
